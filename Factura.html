@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <title> Factura </title>
+    </head>
+        <body background="fondocola.png">
+            <center>
+                <h1>Factura</h1>
+
+            <form action="Factura.php" method="POST" name="jany">
+ <table border="2" > 
+<tr>
+            <td bgcolor="coral"> Fecha:.....................</td>
+            <td bgcolor="coral"> Consumidor:.................. </td>
+
+</tr> 
+<br>
+<tr >
+<td bgcolor="salmon"> <input type="text" name="Fecha"></td>
+<td bgcolor="salmon"> <input type="text" name="Consumidor"></td>
+</tr>
+<br> 
+<tr>
+            <td bgcolor="coral"> No. de Factura............................</td> 
+            <td bgcolor="coral">Producto:......................</td>
+</tr><br>
+<tr>
+            <td bgcolor="salmon"> <input type="number" name="Factura"></td>
+            <td bgcolor="salmon"> <input type="text" name="Producto"></td>
+</tr> <br>
+<tr>
+            <td bgcolor="coral">  Cantidad de paquetes:..........................></td>
+            <td bgcolor="coral"> Total..........................</td>
+
+</tr><br>
+<tr>
+            <td bgcolor="salmon"> <input type="number" name="Paquetes"></td>
+            <td bgcolor="salmon"> <input type="number" name="Total"></td>
+     
+</tr>
+  </table>
+                <input type="submit" value="Guardar" name="Guardar">
+                <input type="reset" value="Borrar" name="Borrar">
+
+          
+
+           </form>
+            </center>
+            
+        </body>
+   
+</html>

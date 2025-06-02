@@ -1,0 +1,38 @@
+<html>
+<head>
+<title>login</title>
+<meta charset="UTF-8">
+<meta name="riewport" content="width= device-witch">
+</head>
+<body style="background-image: url(soda.webp);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+background-attachment: fixed">
+<center>
+<script>
+function usrpas(){
+if (document.X.txtusuario.value=="coca-cola" &&
+document.X.txtpassword.value=="40406514")
+{
+window.location="botones.html"
+}
+else {
+alert("Error en Usuario o Contraseña. Intenta de nuevo.")
+}
+}
+document.oncontextmenu=new Function("return false");
+</script>
+<pre>
+<image src="logococa.webp"><br>
+</pre>
+<h3>BIENVENIDO </h3>
+<image src="candado.png">
+<form method="post" name="X">
+<input type="text"placeholder="Usuario"name="txtusuario"/><br>
+<input type="password"placeholder="Contraseña" name="txtpassword"/><br>
+<input type="button" value="Entrar" onclick="usrpas()">
+</center>
+</form>
+</body>
+</html>
